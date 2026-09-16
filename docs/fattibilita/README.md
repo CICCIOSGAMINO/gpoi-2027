@@ -2,7 +2,7 @@ Studio di Fattibilità
 ======================
 [TOC]
 
-Documento modificato
+Documento modificato [NEW] 09:49 
 
 Lo studio di fattibilità è uno strumento di analisi che permette di valutare la fattibilità di un progetto, sia dal punto di vista tecnico che economico. L'obiettivo principale è quello di identificare eventuali ostacoli o limitazioni che potrebbero compromettere il successo del progetto e fornire una base solida per prendere decisioni informate. 
 
