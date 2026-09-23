@@ -2,33 +2,40 @@ GPOI - Projects 26/27
 =====================
 [TOC]
 
-v0.1.0 - 20-09-2026
+v0.1.1 - 22-09-2026
 
 # 5_CINF
 
-Progetto [Name]
-<br>[github_username]/[repo_name]
+Gruppo Alpha (Sartori, Cisse, Manea) - Progetto [Name]
+<br>https://github.com/0xn0rm41/gpoi-alpha
 <br>[domain]
 <br>Project Manager: [Name]  /  Resp. Documentazione [Name]
 <br>[project management tool Pentamestre]
  __________________________________________________________
 
-Progetto [Name]
-<br>[github_username]/[repo_name]
+Gruppo Bravo - Progetto [Name]
+<br>https://github.com/nicole0800/gpoi-bravo/
 <br>[domain]
 <br>Project Manager: [Name]  /  Resp. Documentazione [Name]
 <br>[project management tool Pentamestre]
 __________________________________________________________
 
-Progetto [Name]
-<br>[github_username]/[repo_name]
+Gruppo Charlie - Progetto [Name]
+<br>https://github.com/LeWa104/gpoi-charlie
 <br>[domain]
 <br>Project Manager: [Name]  /  Resp. Documentazione [Name]
 <br>[project management tool Pentamestre]
 __________________________________________________________
 
-Progetto [Name]
-<br>[github_username]/[repo_name]
+Gruppo Foxtrot - Progetto [Name]
+<br>https://github.com/peakymate/gpoi-foxtrot
+<br>[domain]
+<br>Project Manager: [Name]  /  Resp. Documentazione [Name]
+<br>[project management tool Pentamestre]
+__________________________________________________________
+
+Gruppo TODO - Progetto [Name]
+<br>
 <br>[domain]
 <br>Project Manager: [Name]  /  Resp. Documentazione [Name]
 <br>[project management tool Pentamestre]
@@ -36,7 +43,7 @@ __________________________________________________________
 
 
 # (UPDATED) - TO_READ
-16-09-2026  Creazione README.md e init repository
+22-09-2026 Aggiornato cartella analisi_mercato
 
 # Documenti / Files presenti nel Repository
 - `README.md` - Descrizione del progetto, pagina principale Github
@@ -55,14 +62,45 @@ __________________________________________________________
 - `src/` - Cartella contenente il codice sorgente del progetto
 - `src/tests/` - Cartella contenente i test del codice sorgente
 
-**Folders structure**
+**Folders structure (Doc)**
+
+```bash
+gpoi-2027/
+   ├── docs/           # Documentazione
+         ├── analisi_mercato/   # docs riguardanti l'analisi di mercato
+                 ├── README.md  # introduzione all'analisi di mercato
+                 ├── THEORY.md  # teorie sull'analisi di mercato
+                 └── FRAMEWORKS.md  # frameworks operativi 
+         ├── fattibilita/
+                 ├── README.md  # introduzione allo studio di fattibilità
+                 ├── requirements.md # framework per la raccolta dei requisiti
+                 ├── template_fattibilita.md # template per lo studio di fattibilità
+                 ├── ROI_Payback_VAL_TIR.md # indicatori di redditività e fattibilità economico-finanziaria
+                 └── template_gantt.xlsx  # template per il diagramma di Gantt (excel)
+         ├── github/    # cheatsheet di github
+         ├── economy_finance/    # docs parte economico/finanziaria
+         ├── project_management/    # docs riguardanti il project management
+         └── eu     # docs riguardante i trattati e le normative europee
+            ├── cookies/    # docs cookies e privacy policy
+            ├── gdpr/    # docs GDPR
+            └── cra/    # docs Cyber Security Resilient Act
+         
+            
+   ├── src/            # Codice sorgente
+        └── tests/      # Test del codice sorgente
+   ├── README.md       # Descrizione progetto (template dato)
+   ├── CHANGELOG.md    # Tracking delle versioni
+   └── LICENSE         # Licenza scelta per il codice
+```
+
+**Folders structure (Student)**
 
 ```bash
 progetto-aziendale/
    ├── docs/           # Documentazione
          ├── analisi_mercato/   # docs riguardanti l'analisi di mercato
-                 ├── THEORY.md  # teoria di base
-                 └── FRAMEWORKS.md  # frameworks operativi
+                 ├── [titolo_analisi_mercato].md  # analisi di mercato 1
+                 └── [titolo_analisi_mercato].md  # analisi di mercato 2
          ├── fattibilita/
                  ├── requirements/
                         ├── template_requirements_1.md  # template 

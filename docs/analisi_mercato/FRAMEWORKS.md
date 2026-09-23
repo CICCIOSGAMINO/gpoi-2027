@@ -6,7 +6,12 @@ v0.1.0 - 20-09-2026
 
 Oltre alle teorie di base, esistono modelli operativi che integrano ricerca di mercato e sviluppo prodotto in un unico flusso.
 
-(TODO)
+[PROMPT] All'interno del campo che riguarda l'analisi di mercato per lo sviluppo di prodotti digitali quali sono i framework operativi più utili ed utilizzati (fai un elenco con una spiegazione molto breve, poi chiedero a quali sono interessato)
+
+|  Framework  |    Area di analisi   |      Spiegazione      |
+|-------------|----------------------|-----------------------|
+|   PESTEL    |    Macro-abiente     | Analizza i fattori politici, economici,<br> sociali, tecnologici, ambientali <br>e legali che influenzano il mercato  |
+
 
 # Design Thinking
 Il Design Thinking è un approccio human-centered che enfatizza tre elementi: empatia verso l'utente, sperimentazione rapida e iterazione continua. Il processo in cinque fasi (Empathize, Define, Ideate, Prototype, Test) guida dalla comprensione dei bisogni latenti alla validazione di soluzioni.
