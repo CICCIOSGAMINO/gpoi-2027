@@ -2,7 +2,7 @@ GPOI - Projects 26/27
 =====================
 [TOC]
 
-v0.1.1 - 22-09-2026
+v0.2.0 - 29-09-2026
 
 # 5_CINF
 
@@ -13,17 +13,24 @@ Gruppo Alpha (Sartori, Cisse, Manea) - Progetto [Name]
 <br>[project management tool Pentamestre]
  __________________________________________________________
 
-Gruppo Bravo - Progetto [Name]
+Gruppo Bravo (Piga, Cortesi, Corallini, ) - Progetto [Name]
 <br>https://github.com/nicole0800/gpoi-bravo/
 <br>[domain]
-<br>Project Manager: [Name]  /  Resp. Documentazione [Name]
+<br>Project Manager: Piga  /  Resp. Documentazione Cortesi
 <br>[project management tool Pentamestre]
 __________________________________________________________
 
-Gruppo Charlie - Progetto [Name]
+Gruppo Charlie (Servalli, Guidi) - Progetto [Name]
 <br>https://github.com/LeWa104/gpoi-charlie
 <br>[domain]
-<br>Project Manager: [Name]  /  Resp. Documentazione [Name]
+<br>Project Manager: Guidi  /  Resp. Documentazione Servalli
+<br>[project management tool Pentamestre]
+__________________________________________________________
+
+Gruppo Echo (Cattaneo, Xu) - Progetto [Name]
+<br>https://github.com/LeWa104/gpoi-charlie
+<br>[domain]
+<br>Project Manager: Xu  /  Resp. Documentazione Cattaneo
 <br>[project management tool Pentamestre]
 __________________________________________________________
 
@@ -34,16 +41,21 @@ Gruppo Foxtrot - Progetto [Name]
 <br>[project management tool Pentamestre]
 __________________________________________________________
 
-Gruppo TODO - Progetto [Name]
-<br>
+Gruppo Golf (Damine, Zambaiti) - Progetto FixHome
+<br>https://github.com/eharhzfha/FixHome
 <br>[domain]
-<br>Project Manager: [Name]  /  Resp. Documentazione [Name]
+<br>Project Manager: Damine  /  Resp. Documentazione Zambaiti
 <br>[project management tool Pentamestre]
 __________________________________________________________
 
 
 # (UPDATED) - TO_READ
-22-09-2026 Aggiornato cartella analisi_mercato
+28-09-2026 Aggiunta cartelle simversion, markdown
+26-09-2026 Aggiornato cartella analisi_mercato
+
+# TODO
+Git & Github Commands
+Github pages
 
 # Documenti / Files presenti nel Repository
 - `README.md` - Descrizione del progetto, pagina principale Github
@@ -107,6 +119,8 @@ progetto-aziendale/
                         └── template_requirements_2.md  # template 
                  ├── README.md  # studio di fattibilita
                  └── template_gantt.xlsx
+         ├── simversion/    # docs riguardanti la gestione del numero di versione
+         ├── markdown/    # docs riguardanti il linguaggio Markdown
          ├── github/    # cheatsheet di github
          ├── economy_finance/    # docs parte economico/finanziaria
          ├── project_management/    # docs riguardanti il project management
@@ -120,8 +134,9 @@ progetto-aziendale/
         └── tests/      # Test del codice sorgente
    ├── README.md       # Descrizione progetto (template dato)
    ├── CHANGELOG.md    # Tracking delle versioni
-   └── LICENSE         # Licenza scelta per il codice
+   └── LICENSE         # Licenza scelta per il codice (se public)
 ```
+
 
 # 1. Fase Analisi di Mercato - Sep 2026
 Dopo l'individuazione dei gruppi di lavoro, ogni gruppo deve procedere con l'analisi di mercato, seguendo le linee guida e i framework operativi forniti nel file `docs/analisi_mercato/. 
@@ -159,10 +174,15 @@ Idee FREE:
 - WebApp(AI) per la creazione di itinerari di viaggio personalizzati
 - WebApp(AI) per la gestione del tempo (produttività personale, attività)
 
-- Consulenza Utilizzo / Calcola ad Alta capacità NVIDIA CUDA-X
-- NVIDIA Training Center (Idee) https://www.nvidia.com/en-us/training/
-- NVIDIA Developer (Idee) https://developer.nvidia.com/
-- NVIDIA and AI https://www.nvidia.com/it-it/about-nvidia/ai-for-good/
+- AI Consulenza Utilizzo / Calcola ad Alta capacità NVIDIA CUDA-X
+- AI NVIDIA Training Center (Idee) https://www.nvidia.com/en-us/training/
+- AI NVIDIA Developer (Idee) https://developer.nvidia.com/
+- AI NVIDIA and AI https://www.nvidia.com/it-it/about-nvidia/ai-for-good/
+
+- Hw/Sw - Sensori/Applicazioni per il miglioramento nel running, social running app
+
+- Digital Platform - Tool per la creazione di contenuti digitali (es. immagini per prodotti per eCommerce, Vinted, Socials ...)
+
 
 # 3. Oct - Definizione del Progetto
 Con la definizione del progetto il primo passo è lo studio di fattibilità, il materiale riguardante lo studio di fattibilità è contenuto nella cartella `docs/fattibilita/`
