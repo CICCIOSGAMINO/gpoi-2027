@@ -6,6 +6,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.1] - 13-10-2026
+
+### Add
+	- brainstorming ideas idee_2027.md
+
+### Changed
+	- README.md updated with new ideas and links to brainstorming folder
+
 ## [0.1.0] - 21-09-2026
 
 ### Add

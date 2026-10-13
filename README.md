@@ -2,7 +2,7 @@ GPOI - Projects 26/27
 =====================
 [TOC]
 
-v0.2.0 - 29-09-2026
+v0.2.1 - 12-10-2026
 
 # 5_CINF
 
@@ -50,12 +50,15 @@ __________________________________________________________
 
 
 # (UPDATED) - TO_READ
+12-10-2026 Aggiornato cartella brainstorming, github, analisi_mercato FRAMEWORKS.md
 28-09-2026 Aggiunta cartelle simversion, markdown
 26-09-2026 Aggiornato cartella analisi_mercato
 
 # TODO
-Git & Github Commands
+Git branches
 Github pages
+Fattibilità
+Gantt - Divisione del lavoro funzionale
 
 # Documenti / Files presenti nel Repository
 - `README.md` - Descrizione del progetto, pagina principale Github
@@ -63,9 +66,12 @@ Github pages
 - `CHANGELOG.md` - Registro delle modifiche / versioni del progetto
 - `docs/` - Cartella contenente documentazione aggiuntiva, specifiche tecniche, e guide
 - `docs/analisi_mercato/` - Analisi di mercato introduzione, teoria, frameworks
+- `docs/brainstorming/` - Documentazione riguardante il processo di brainstorming 2027
+- `docs/markdown/` - Documentazione riguardante il linguaggio Markdown
+- `docs/simversion/` - Documentazione riguardante la gestione del numero di versione
 - `docs/fattibilita/` - Studio di fattibilità del progetto (README.md, excel, requirements)
 - `docs/github/` - Cheatsheet e guide per l'utilizzo di Git e GitHub
-- `docs/economy_finance/` - Riassunti e documenti relativi alla parte economico/finanziaria del progetto
+- `docs/economy_finance/` - Documenti relativi alla parte economico/finanziaria del progetto
 - `docs/project_management/` - Documenti e riassunti sul Project Management
 - `docs/eu/` - Documentazione riguardante i trattati e le normative europee più recenti
 - `docs/eu/cookies/` - Documentazione riguardante la gestione dei Cookies e Privacy Policy
@@ -146,9 +152,9 @@ In questa fase è fondamentale raccogliere i dati che saranno di supporto alla f
 
 Processo di brainstorming per la generazione di idee progettuali:
 - **Tecnologie Emergenti**: Intelligenza Artificiale, Blockchain, IoT, Realtà Aumentata
-- **Problemi Comuni**: Gestione del tempo,  Sostenibilità ambientale, Salute mentale
-- **Interessi Personali**: Hobby, Sport, Viaggi
-- **Tendenze di Mercato**: E-commerce, Educazione online, Lavoro remoto
+- **Problemi Comuni**: Gestione del tempo,  Sostenibilità ambientale, Salute mentale, etc.. 
+- **Interessi Personali**: Hobby, Sport, Viaggi, Giochi, Lifestyle, Recensione, Aiuto nel buying
+- **Tendenze di Mercato**: E-commerce, Educazione online, Lavoro remoto, Aiuto nella scelta prodotti
 - **Feedback degli Utenti**: Recensioni di app, Forum online, Social media
 - **Collaborazione di Gruppo**: Sessioni di brainstorming, Discussioni di gruppo, Condivisione di idee
 - **Analisi della Concorrenza**: Studio di app esistenti, Identificazione di lacune nel mercato
@@ -178,6 +184,9 @@ Idee FREE:
 - AI NVIDIA Training Center (Idee) https://www.nvidia.com/en-us/training/
 - AI NVIDIA Developer (Idee) https://developer.nvidia.com/
 - AI NVIDIA and AI https://www.nvidia.com/it-it/about-nvidia/ai-for-good/
+
+- Progetti legati al compartimento della Difesa e della Sicurezza 
+- Cybersecurity - Sicurezza informatica, protezione dei dati, prevenzione degli attacchi informatici
 
 - Hw/Sw - Sensori/Applicazioni per il miglioramento nel running, social running app
 
