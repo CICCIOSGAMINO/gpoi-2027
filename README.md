@@ -2,7 +2,7 @@ GPOI - Projects 26/27
 =====================
 [TOC]
 
-v0.2.1 - 12-10-2026
+v0.2.2 - 20-10-2026
 
 # 5_CINF
 
@@ -50,6 +50,7 @@ __________________________________________________________
 
 
 # (UPDATED) - TO_READ
+20-10-2026 - Aggiunto cartella fattibilità
 12-10-2026 Aggiornato cartella brainstorming, github, analisi_mercato FRAMEWORKS.md
 28-09-2026 Aggiunta cartelle simversion, markdown
 26-09-2026 Aggiornato cartella analisi_mercato

@@ -72,25 +72,6 @@ git rm <nome-file>
 git checkout -- <nome-file>
 ```
 
-## Gestione dei Branch
-I branch e la loro gestione sono una parte fondamentale del flusso di lavoro in Git e Github. I branch consentono agli sviluppatori di lavorare su nuove funzionalità o correzioni di bug senza influire sul codice principale, il branch principale (di solito chiamato "main" o "master").
-
-Un nuovo branch (ad esempio "new-login") può essere creato per cambiare profondamente il sistema di login della nostra applicazione, può richiedere molto lavoro e cambiare più do un file del repository. Mentre il branch principale rimane stabile e funzionante, il nuovo branch può essere sviluppato e testato in modo indipendente. Una volta completate le modifiche, il branch può essere unito al branch principale tramite una "pull request", che consente agli altri membri del team di rivedere le modifiche prima della fusione del nuovo codice nel branch principale.
-
-```bash
-# mostra i branch e quello attivo
-git branch
-
-# crea un nuovo branch e spostati su di esso
-git checkout -b <nome-branch>
-
-# spostati su un branch esistente
-git checkout <nome-branch>
-
-# unisci il branch attivo con un altro branch
-git merge <nome-branch>
-```
-
 ## Connettere il repository locale con quello remoto su Github
 Per connettere il repository locale con quello remoto su Github, è necessario aggiungere l'URL del repository remoto come "remote" nel repository locale. Questo consente di sincronizzare le modifiche tra il repository locale e quello remoto su Github, consentendo di condividere il codice con altri sviluppatori e di collaborare su progetti open-source. Una volta connesso, è possibile eseguire il push delle modifiche locali al repository remoto e il pull delle modifiche dal repository remoto al repository locale.
 
@@ -122,4 +103,30 @@ git push origin <nome-branch>
 # recupera le modifiche dal repository remoto al repository locale
 git pull origin <nome-branch>
 ```
+
+## Gestione dei Branch
+I branch e la loro gestione sono una parte fondamentale del flusso di lavoro in Git e Github. I branch consentono agli sviluppatori di lavorare su nuove funzionalità o correzioni di bug senza influire sul codice principale, il branch principale (di solito chiamato "main" o "master").
+
+Un nuovo branch (ad esempio "new-login") può essere creato per cambiare profondamente il sistema di login della nostra applicazione, può richiedere molto lavoro e cambiare più do un file del repository. Mentre il branch principale rimane stabile e funzionante, il nuovo branch può essere sviluppato e testato in modo indipendente. Una volta completate le modifiche, il branch può essere unito al branch principale tramite una "pull request", che consente agli altri membri del team di rivedere le modifiche prima della fusione del nuovo codice nel branch principale.
+
+```bash
+# mostra i branch e quello attivo
+git branch
+
+# crea un nuovo branch e spostati su di esso
+git checkout -b <nome-branch>
+
+# spostati su un branch esistente
+git checkout <nome-branch>
+
+# unisci il branch attivo con un altro branch
+git merge <nome-branch>
+```
+
+### Merging 2 branches
+L'operazione di merge consente di unire le modifiche apportate in un branch con un altro branch (tipicamente il main). Il merge può essere eseguito sia in locale (git) che in remoto (github) attraverso una pull request, la seconda soluzione permette la review delle modifiche e di ricordare le modifiche apportate dalla fusione dei due branch.
+
+**Fast-forward merge**: (no divergence) Il branch main non ha subito modifche dopo la creazione del branch secondario, quindi il merge può essere eseguito senza conflitti.
+
+**
 

@@ -2,7 +2,7 @@ Studio di Fattibilità - [Nome Progetto]
 =======================================
 [TOC]
 
-v1.0.0 - 10/11/25 - [Nome e cognome/responsabile]
+v2.0.0 - 19/10/26 - [Nome e cognome/responsabile]
 
 <br>
 
@@ -10,9 +10,6 @@ v1.0.0 - 10/11/25 - [Nome e cognome/responsabile]
 
 ### Descrizione sintetica del progetto
 [2-3 righe di sintesi]
-
-### Scopo principale dello studio
-[Motivazione dell'analisi]
 
 ### Raccomandazione finale
 [Fattibile/NON Fattibile - con motivazione sintetica]
@@ -75,51 +72,6 @@ v1.0.0 - 10/11/25 - [Nome e cognome/responsabile]
 
 ### Normativi
 [Conformità richieste, regolamenti]
-
-<br>
-
-# 3. Analisi di Mercato
-
-## 3.1 Analisi della Domanda
-
-### Clienti di riferimento
-[Descrizione del target di mercato]
-
-### Dimensione del mercato
-[Dati quantitativi e qualitativi]
-
-### Tendenze di mercato
-[Evoluzione del mercato, opportunità emergenti]
-
-<br>
-
-## 3.2 Analisi della Concorrenza
-| Concorrente | Punti di Forza | Punti di Debolezza | Quota di Mercato |
-|-------------|----------------|---------------------|------------------|
-| [Esempio]   | [Esempio]      | [Esempio]           | [Esempio]        |
-
-<br>
-
-## 3.3 Analisi SWOT TODO better markdown table
-
-Tabella SWOT:
-
-| Forze (Strengths) | Debolezze (Weaknesses) |
-|-------------------|-------------------------|
-| [Esempio]         | [Esempio]               | 
-| Opportunità (Opportunities) | Minacce (Threats) |
-|-------------------|-------------------------|
-| [Esempio]         | [Esempio]               |
-
-<br>
-
-## 3.4 Valore per il Cliente
-
-### Proposta di Valore Unica (UVP)
-[Descrizione della UVP]
-
-### Benefici per i clienti
-[Elenco puntato dei principali benefici]
 
 <br>
 
