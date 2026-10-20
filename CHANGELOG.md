@@ -6,10 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.2.2] - 20-10-2026
+## [0.2.3] - 20-10-2026
 
 ### Add
-	- cartella fattibilità
+	- cartella fattibilità, gantt updated
 
 ## [0.2.1] - 13-10-2026
 
