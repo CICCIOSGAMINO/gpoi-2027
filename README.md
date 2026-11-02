@@ -28,7 +28,7 @@ Gruppo Charlie (Servalli, Guidi) - Progetto [Name]
 __________________________________________________________
 
 Gruppo Echo (Cattaneo, Xu) - Progetto [Name]
-<br>https://github.com/LeWa104/gpoi-charlie
+<br>https://github.com/MATCATTA08/gpoi-echo
 <br>[domain]
 <br>Project Manager: Xu  /  Resp. Documentazione Cattaneo
 <br>[project management tool Pentamestre]
