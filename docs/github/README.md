@@ -126,7 +126,96 @@ git merge <nome-branch>
 ### Merging 2 branches
 L'operazione di merge consente di unire le modifiche apportate in un branch con un altro branch (tipicamente il main). Il merge può essere eseguito sia in locale (git) che in remoto (github) attraverso una pull request, la seconda soluzione permette la review delle modifiche e di ricordare le modifiche apportate dalla fusione dei due branch.
 
+```markdown
+main:     A --- B --- C
+                       \
+feature:                D --- E
+```
+
 **Fast-forward merge**: (no divergence) Il branch main non ha subito modifche dopo la creazione del branch secondario, quindi il merge può essere eseguito senza conflitti.
 
-**
+```markdown
+main:     A --- B --- C --- D --- E
+```
+
+**Merge commit**: (divergence) Il branch main ha subito modifiche dopo la creazione del branch secondario (modificato a sua volta), quindi il merge richiede un commit di merge per unire le modifiche dei due branch.
+
+```markdown
+main:     A --- B --- C --- M
+                       \   /
+feature:                D-E
+```
+
+#### Push branch (Github Push Request)
+Utilizziamo il comando "git push" per inviare le modifiche locali del branch secondario al repository remoto su Github.
+
+```bash
+# switch on the branch you want to push and merge
+git checkout <nome-branch>
+
+# push the branch to the reomote repository on Github
+git push origin <nome-branch>
+```
+
+Ora che le modifiche del branch secondario sono presenti sul repository remoto su Github, possiamo creare una pull request per richiedere la fusione del branch secondario con il branch principale. La pull request consente agli altri membri del team di rivedere le modifiche, discutere eventuali problemi e approvare la fusione del nuovo codice nel branch principale.
+
+1. Go to the repo on github.com.
+2. GitHub shows a banner: "<nome-branch> had recent pushes — Compare & pull request". Click it.
+3. Or: Pull requests → New pull request.
+4. Set base = main, compare = <nome-branch>
+5. Add a title and description, then click Create pull request.
+6. Review the Files changed tab (that's the diff).
+7. Click Merge pull request → choose a merge strategy → Confirm merge.
+
+#### The Local Method
+Il procedimento di merge può essere portato a termine anche in locale, senza utilizzare la piattaforma Github, su sui arriveranno solo le modifiche finali del branch main.
+
+```bash
+# go to the main branch (or the branch you want to merge into)
+git checkout main
+
+# make sure the main branch is up to date with the remote repo
+git pull origin main
+
+# merge the feature branch into the main branch
+git merge <nome-branch>
+
+# push the changes to the remote repository on Github
+git push origin main
+```
+
+#### Conflicts
+In alcuni casi, durante il merge di due branch, possono verificarsi conflitti se le modifiche apportate in entrambi i branch riguardano le stesse righe di codice o file. In questi casi, Git non può determinare automaticamente quale versione del codice mantenere e richiede l'intervento manuale dello sviluppatore per risolvere il conflitto. I conflitti devono essere risolti manualmente modificando i file interessati, rimuovendo i marcatori di conflitto e scegliendo quale versione del codice mantenere. Una volta risolti i conflitti, è necessario eseguire un commit per salvare le modifiche e completare il merge.
+
+```text
+your version on main
+their version on feature
+```
+
+Edita il file rimuovendo i marcatori di conflitto e scegliere quale versione del codice in conflitto mantenere.
+
+```text
+your version on main
+```
+
+```bash
+# add the file to the staging area 
+git add <file-in-conflitto>
+git commit -m "Risolto conflitto tra main e <nome-branch>"
+git push origin main
+
+# remove the feature branch if no longer needed
+git branch -d <nome-branch>
+```
+
+#### Rebase
+Il rebase è un'operazione avanzata in git che permette di riportare il repository a uno stato precedente, riscrivendo la cronologia dei commit. Il rebase può essere utilizzato per integrare le modifiche di un branch in un altro branch, mantenendo una cronologia lineare e pulita. Tuttavia, il rebase può essere rischioso se non viene utilizzato correttamente, poiché può causare la perdita di commit o la creazione di conflitti complessi. È importante comprendere le implicazioni del rebase e utilizzarlo con cautela, soprattutto quando si lavora in team.
+
+```bash
+# switch to the branch you want to rebase
+git checkout <nome-branch>
+
+# rebase the branch onto the main branch
+git rebase main
+```
 

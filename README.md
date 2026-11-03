@@ -2,18 +2,18 @@ GPOI - Projects 26/27
 =====================
 [TOC]
 
-v0.2.3 - 20-10-2026
+v0.4.0 - 03-11-2026
 
 # 5_CINF
 
 Gruppo Alpha (Sartori, Cisse, Manea) - Progetto [Name]
 <br>https://github.com/0xn0rm41/gpoi-alpha
 <br>[domain]
-<br>Project Manager: [Name]  /  Resp. Documentazione [Name]
+<br>Project Manager: Cisse  /  Resp. Documentazione Manea
 <br>[project management tool Pentamestre]
  __________________________________________________________
 
-Gruppo Bravo (Piga, Cortesi, Corallini, ) - Progetto [Name]
+Gruppo Bravo (Piga, Cortesi, Corallini, ) - Progetto Uniflow
 <br>https://github.com/nicole0800/gpoi-bravo/
 <br>[domain]
 <br>Project Manager: Piga  /  Resp. Documentazione Cortesi
@@ -27,17 +27,17 @@ Gruppo Charlie (Servalli, Guidi) - Progetto [Name]
 <br>[project management tool Pentamestre]
 __________________________________________________________
 
-Gruppo Echo (Cattaneo, Xu) - Progetto [Name]
+Gruppo Echo (Cattaneo, Xu) - Progetto XuAgency
 <br>https://github.com/LeWa104/gpoi-charlie
 <br>[domain]
 <br>Project Manager: Xu  /  Resp. Documentazione Cattaneo
 <br>[project management tool Pentamestre]
 __________________________________________________________
 
-Gruppo Foxtrot - Progetto [Name]
+Gruppo Foxtrot - Progetto TrueMirror
 <br>https://github.com/peakymate/gpoi-foxtrot
 <br>[domain]
-<br>Project Manager: [Name]  /  Resp. Documentazione [Name]
+<br>Project Manager: Matei  /  Resp. Documentazione Casiraghi
 <br>[project management tool Pentamestre]
 __________________________________________________________
 
@@ -50,16 +50,15 @@ __________________________________________________________
 
 
 # (UPDATED) - TO_READ
-20-10-2026 - Aggiunto cartella fattibilità
-12-10-2026 Aggiornato cartella brainstorming, github, analisi_mercato FRAMEWORKS.md
-28-09-2026 Aggiunta cartelle simversion, markdown
-26-09-2026 Aggiornato cartella analisi_mercato
+03-11-2026 - Aggiunta cartella docs/economy_finance, GITHUB_PAGES.md
+20-10-2026 - Aggiunta cartella fattibilità
+12-10-2026 - Aggiornamento brainstorming, github, analisi_mercato
+28-09-2026 - Aggiunta cartelle simversion, markdown
+26-09-2026 - Aggiornamento cartella analisi_mercato
 
 # TODO
 Git branches
 Github pages
-Fattibilità
-Gantt - Divisione del lavoro funzionale
 
 # Documenti / Files presenti nel Repository
 - `README.md` - Descrizione del progetto, pagina principale Github
