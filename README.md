@@ -2,7 +2,7 @@ GPOI - Projects 26/27
 =====================
 [TOC]
 
-v0.4.0 - 03-11-2026
+v0.4.1 - 03-11-2026
 
 # 5_CINF
 
@@ -27,8 +27,9 @@ Gruppo Charlie (Servalli, Guidi) - Progetto [Name]
 <br>[project management tool Pentamestre]
 __________________________________________________________
 
-Gruppo Echo (Cattaneo, Xu) - Progetto XuAgency
-<br>https://github.com/LeWa104/gpoi-charlie
+
+Gruppo Echo (Cattaneo, Xu) - Progetto [Name]
+<br>https://github.com/MATCATTA08/gpoi-echo
 <br>[domain]
 <br>Project Manager: Xu  /  Resp. Documentazione Cattaneo
 <br>[project management tool Pentamestre]

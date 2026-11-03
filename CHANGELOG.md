@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.4.1] - 03-11-2026
+
+### Add
+	- Added docs/economy_finance, GITHUB_PAGES.md
+
 ## [0.3.0] - 22-10-2026
 
 ### Changed
