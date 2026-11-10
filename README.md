@@ -2,7 +2,7 @@ GPOI - Projects 26/27
 =====================
 [TOC]
 
-v0.4.1 - 03-11-2026
+v0.5.0 - 10-11-2026
 
 # 5_CINF
 
@@ -51,15 +51,14 @@ __________________________________________________________
 
 
 # (UPDATED) - TO_READ
-03-11-2026 - Aggiunta cartella docs/economy_finance, GITHUB_PAGES.md
-20-10-2026 - Aggiunta cartella fattibilità
-12-10-2026 - Aggiornamento brainstorming, github, analisi_mercato
-28-09-2026 - Aggiunta cartelle simversion, markdown
-26-09-2026 - Aggiornamento cartella analisi_mercato
+10-11-2026 - Aggiunta economy_finance/business_models.md, measures.md, startup.md
+03-11-2026 - Aggiunta cartella docs/economy_finance, GITHUB_PAGES.md<br>
+20-10-2026 - Aggiunta cartella fattibilità<br>
+12-10-2026 - Aggiornamento brainstorming, github, analisi_mercato<br>
+28-09-2026 - Aggiunta cartelle simversion, markdown<br>
+26-09-2026 - Aggiornamento cartella analisi_mercato<br>
 
 # TODO
-Git branches
-Github pages
 
 # Documenti / Files presenti nel Repository
 - `README.md` - Descrizione del progetto, pagina principale Github
@@ -85,19 +84,35 @@ Github pages
 
 ```bash
 gpoi-2027/
-   ├── docs/           # Documentazione
-         ├── analisi_mercato/   # docs riguardanti l'analisi di mercato
+   ├── docs/  # Documentazione
+         ├── analisi_mercato/
                  ├── README.md  # introduzione all'analisi di mercato
                  ├── THEORY.md  # teorie sull'analisi di mercato
                  └── FRAMEWORKS.md  # frameworks operativi 
+         ├── brainstorming/
+                 ├── README.md  # introduzione al processo di brainstorming
+                 └── idee_2027.md  # idee generate durante il brainstorming 2027
          ├── fattibilita/
                  ├── README.md  # introduzione allo studio di fattibilità
                  ├── requirements.md # framework per la raccolta dei requisiti
                  ├── template_fattibilita.md # template per lo studio di fattibilità
                  ├── ROI_Payback_VAL_TIR.md # indicatori di redditività e fattibilità economico-finanziaria
                  └── template_gantt.xlsx  # template per il diagramma di Gantt (excel)
-         ├── github/    # cheatsheet di github
+         ├── github/
+                 ├── README.md  # intro a git, github
+                 ├── git-cheat-sheet-education.pdf  # comandi principali
+                 ├── GITHUB_PAGES.md  # come creare e gestire la propria pagina github
+                 └── vscode.dev.md  # vscode.dev per modificare il codice direttamente dal browser
          ├── economy_finance/    # docs parte economico/finanziaria
+                ├── impresa_azienda.md  # introduzione all'impresa e all'azienda
+                ├── business_models.md  # modelli di business
+                ├── measures.md  # indicatori di performance e misure economico-finanziarie
+                ├── startup.md  # introduzione alle startup
+                └── break_even_point.md  # calcolo del BEP (Break Even Point)
+         ├── markdown/
+                └── README.md  # introduzione al linguaggio Markdown
+         ├── simversion/
+                └── README.md  # introduzione alla gestione del numero di versione
          ├── project_management/    # docs riguardanti il project management
          └── eu     # docs riguardante i trattati e le normative europee
             ├── cookies/    # docs cookies e privacy policy
@@ -126,16 +141,6 @@ progetto-aziendale/
                         └── template_requirements_2.md  # template 
                  ├── README.md  # studio di fattibilita
                  └── template_gantt.xlsx
-         ├── simversion/    # docs riguardanti la gestione del numero di versione
-         ├── markdown/    # docs riguardanti il linguaggio Markdown
-         ├── github/    # cheatsheet di github
-         ├── economy_finance/    # docs parte economico/finanziaria
-         ├── project_management/    # docs riguardanti il project management
-         └── eu     # docs riguardante i trattati e le normative europee
-            ├── cookies/    # docs cookies e privacy policy
-            ├── gdpr/    # docs GDPR
-            └── cra/    # docs Cyber Security Resilient Act
-         
             
    ├── src/            # Codice sorgente
         └── tests/      # Test del codice sorgente

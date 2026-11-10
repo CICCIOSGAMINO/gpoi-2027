@@ -2,7 +2,7 @@ Economy & Finance
 =================
 [TOC]
 
-v0.3.0 27-10-2026
+v0.4.0 10-11-2026
 
 # Impresa Vs Azienda
 
@@ -275,3 +275,29 @@ Questa rappresenta il flusso delle attività di produzione di un'azienda di GPU,
 5. **Logistica e Spedizione (LOG)**
    - Imballaggio delle GPU finite, utilizzando materiali protettivi e confezioni adeguate per prevenire danni durante il trasporto
    - Etichettatura e preparazione per la spedizione ai distributori e clienti finali, assicurandosi che le GPU siano correttamente identificate e tracciabili, e che le spedizioni rispettino le normative di trasporto e sicurezza (es. certificazioni RoHS, CE, ecc.)
+
+
+# Glossario
+
+## Equity
+L’equity rappresenta la quota di proprietà di un’impresa detenuta dai soci, investitori e dipendenti, espressa come percentuale del capitale sociale. È un indicatore chiave della proprietà e del controllo dell’impresa.
+
+## Cap Table
+La cap table (capitalization table) è un documento che mostra la struttura del capitale di un’impresa, indicando la distribuzione delle azioni tra i soci, gli investitori e i dipendenti, nonché eventuali opzioni o warrant. È un indicatore chiave della proprietà e del controllo dell’impresa.
+
+esempio: una cap table può mostrare che un’impresa ha 1.000.000 di azioni in totale, di cui il fondatore possiede 600.000 azioni (60%), un investitore esterno possiede 300.000 azioni (30%) e i dipendenti possiedono 100.000 azioni (10%).
+
+## Vesting
+Il vesting rappresenta il processo attraverso il quale un dipendente o un collaboratore acquisisce il diritto di possedere azioni o opzioni su azioni di un’impresa nel tempo, in base a un piano di incentivazione. È un indicatore chiave della motivazione e della fidelizzazione dei dipendenti.
+
+esempio: un piano di vesting può prevedere che un dipendente acquisisca il diritto di possedere il 25% delle azioni assegnate ogni anno per quattro anni, con un cliff di un anno. Ciò significa che il dipendente non acquisirà alcuna azione durante il primo anno, ma acquisirà il 25% delle azioni assegnate alla fine del primo anno e il restante 75% in rate annuali nei tre anni successivi.
+
+## Dilution
+La diluizione rappresenta la riduzione della quota di proprietà di un socio o investitore in un’impresa a seguito dell’emissione di nuove azioni o opzioni su azioni. È un indicatore chiave della proprietà e del controllo dell’impresa.
+
+esempio: se un investitore possiede il 20% delle azioni di un’impresa e l’impresa emette nuove azioni che aumentano il numero totale di azioni del 50%, la quota di proprietà dell’investitore sarà diluita al 13,33% (20% / 1,5).
+
+## ESOP (Employee Stock Ownership Plan)
+Un piano di proprietà azionaria per i dipendenti (ESOP) è un programma che consente ai dipendenti di acquisire azioni o opzioni su azioni di un’impresa, spesso come parte di un pacchetto di compensi o incentivi. È un indicatore chiave della motivazione e della fidelizzazione dei dipendenti.
+
+esempio: un’impresa può offrire ai propri dipendenti un ESOP che consente loro di acquistare azioni dell’impresa a un prezzo scontato o di ricevere azioni come parte del loro pacchetto di compensi, incentivando la partecipazione e l’impegno dei dipendenti nel successo dell’impresa.
